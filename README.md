@@ -114,12 +114,15 @@ See [`notebooks/model_training.ipynb`](notebooks/model_training.ipynb) for the f
 
 ---
 
-## 🖼️ App Screenshots
+## 🖼️ Demo
+
+
+
+https://github.com/user-attachments/assets/ae84d2cc-141a-470a-9f5c-6b8f0cf4871a
 
 
 
 ---
-
 ## 🔧 Usage
 
 ### Classification Mode
