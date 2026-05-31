@@ -29,8 +29,8 @@ A **Streamlit** web application that uses a **MobileNet** transfer-learning mode
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/date-fruit-classification.git
-cd date-fruit-classification
+git clone https://github.com/zienabmakhloof-ai/Classification-of-dates-types.git
+cd Classification-of-dates-types
 ```
 
 ### 2. Create and activate a virtual environment
@@ -71,7 +71,6 @@ app/
 ```
 
 > **Note:** The model weights are not included in this repository due to file size.  
-> Download link: *(add your link here)*
 
 ### 6. Run the app
 
@@ -117,7 +116,7 @@ See [`notebooks/model_training.ipynb`](notebooks/model_training.ipynb) for the f
 
 ## 🖼️ App Screenshots
 
-> *(Add screenshots here once deployed)*
+
 
 ---
 
