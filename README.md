@@ -113,7 +113,48 @@ date-fruit-classification/
 See [`notebooks/model_training.ipynb`](notebooks/model_training.ipynb) for the full training pipeline.
 
 ---
+---
 
+## 📊 Model Performance | أداء النموذج
+
+<div align="center">
+
+### 🏆 Overall Accuracy: 92%
+
+![Python](https://img.shields.io/badge/Accuracy-92%25-brightgreen?style=flat-square)
+![Classes](https://img.shields.io/badge/Classes-9_Date_Varieties-blue?style=flat-square)
+![Model](https://img.shields.io/badge/Model-MobileNet_Transfer_Learning-orange?style=flat-square)
+
+</div>
+
+---
+
+### 📉 Training Curves 
+
+<div align="center">
+
+| Training & Validation Accuracy | Training & Validation Loss |
+
+
+<img width="547" height="435" alt="acc" src="https://github.com/user-attachments/assets/69111160-5b47-4b14-a690-fd733483b752" /> | <img width="547" height="435" alt="loss" src="https://github.com/user-attachments/assets/3ab57b57-f814-406c-81d4-7a355784e0de" />
+
+</div>
+
+> The model converges steadily with no signs of overfitting — validation accuracy closely follows training accuracy throughout all epochs.
+
+---
+
+### 🔢 Confusion Matrix 
+
+<div align="center">
+
+<img width="734" height="547" alt="cm" src="https://github.com/user-attachments/assets/d4847d09-8d8b-4efe-9f4a-2f8e7d868182" />
+
+*Each row represents the actual class — each column represents the predicted class.*
+
+</div>
+
+---
 ## 🖼️ Demo
 
 
@@ -155,9 +196,3 @@ streamlit run app/annotation_tool.py
 | python-dotenv | Environment variable management |
 
 ---
-
-## ⚠️ Important Notes
-
-- **API Key:** Never commit your `.env` file. The `.gitignore` is already configured to exclude it.
-- **Model Weights:** The `model.keras` file is excluded from Git (add to Git LFS or share a download link).
-- **Python Version:** Tested on Python 3.10+.
